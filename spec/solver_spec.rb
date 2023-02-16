@@ -12,5 +12,9 @@ describe Solver do
  solver = Solver.new
  expect(solver.factorial(6)).to eql(720)
  end
-
+  
+ it "return the reverse word for the given string" do
+  solver = Solver.new
+  expect(solver.reverse('car')).to eql ('rac')
+ end
 end
