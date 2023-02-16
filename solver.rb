@@ -9,5 +9,9 @@ class Solver
    (1..n).inject(:*)
   end
  end
+
+ def reverse(string)
+  string.reverse
+ end
 end
 
