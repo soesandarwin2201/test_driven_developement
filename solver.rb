@@ -10,3 +10,6 @@ class Solver
   end
  end
 end
+
+solver = Solver.new
+puts solver.factorial(6)
