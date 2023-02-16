@@ -17,4 +17,5 @@ describe Solver do
   solver = Solver.new
   expect(solver.reverse('car')).to eql ('rac')
  end
+
 end
