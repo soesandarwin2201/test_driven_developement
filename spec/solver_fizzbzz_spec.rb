@@ -4,6 +4,6 @@ require './solver.rb'
 describe Solver do
  it "check the method created or not" do
   solver = Solver.new
-  solver.fizzbuzz
+  expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
  end
 end
